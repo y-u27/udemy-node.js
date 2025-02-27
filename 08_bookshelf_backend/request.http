@@ -1,0 +1,26 @@
+http://localhost:8080/api/books
+
+###
+http://localhost:8080/api/books/633471d481d8ae4ba04fbca9
+
+###
+DELETE http://localhost:8080/api/books/67bb3310e514e8c9c3c12f72
+
+###
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title":"1",
+  "description":"2",
+  "comment":"3",
+  "rating":4
+}
+
+###
+PATCH  http://localhost:8080/api/books/67baaca8cf0ce19b16d8def9
+Content-Type: application/json
+
+{
+  "rating":4
+}

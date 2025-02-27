@@ -1,0 +1,21 @@
+{
+  "name": "08_bookshelf_backend",
+  "version": "1.0.0",
+  "description": "本セクションで、書きながら学びたい場合にはこのフォルダ（08_bookshelf_backend）を 別名にして、新しくフォルダを作成してその中に記述してください。",
+  "main": "index.js",
+  "scripts": {
+    "dev:api": "nodemon server/app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^6.15.0",
+    "mongoose": "^6.13.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
